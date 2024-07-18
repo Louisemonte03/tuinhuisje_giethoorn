@@ -1,0 +1,243 @@
+
+@font-face {
+  font-family: did;
+  src: url(font/didot.ttc);
+}
+body{
+  font-family: did;
+}
+h1{
+  font-size: 20px;
+
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+  }
+
+  nav .nav-list {
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    gap: 2em; 
+  }
+  
+  .nav-list li {
+    margin-left: 20px;
+  }
+  
+  .nav-list a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: background-color 0.3s ease;
+  }
+
+  .banner {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+.banner h2{
+  font-size: 60px;
+}
+
+.banner p {
+  font-size: 20px;
+}
+  .banner img {
+    width: 100%;
+    height: auto;
+  }
+  .banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+  }
+
+  .foto-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 20px; 
+  }
+  
+  .photo-wrapper {
+    position: relative;
+    width: calc(25% - 2em); 
+  }
+  
+  .photo-wrapper img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 40px;
+    text-align: center;
+  }
+
+
+  .gevulde-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fffcf8;
+    text-align: center;
+  }
+  
+  .gevulde-text h2 {
+    margin: 0;
+    font-size: 50px;
+    font-style: italic;
+  }
+  
+  .gevulde-text p {
+    margin: 10px 0 0;
+    font-size: 20px;
+    margin-right: 12em;
+    margin-left: 12em;
+    font-style: italic;
+  }
+
+
+
+
+  .foto-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  
+  .photo-wrapper {
+    position: relative;
+    width: calc(25% - 10px);
+  }
+  
+
+  .container3 {
+    display: flex;
+    text-align: center;
+    margin-bottom: 3em;
+    justify-content: space-between;
+  }
+  
+  .container3 h2 {
+    font-size: 25px;
+  }
+
+  .container3 img {
+   margin-bottom: -5em;
+  }
+  
+  .container3 p {
+    font-size: 20px;
+    margin-left: 5em;
+    margin-right: 5em;
+  }
+  .box img {
+    max-width: 30vh;
+    height: auto;
+  }
+.box {
+  margin-bottom: 7em;
+}
+
+  .banner2 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+  
+  .banner2 img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .banner-text2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+  }
+  
+  .banner-text2 h2 {
+    margin: 0;
+    font-size: 40px;
+    font-style: italic;
+  }
+  
+  .banner-text2 p {
+    font-size: 20px;
+    background-color: #f5ebe0;
+    margin-right: 13em;
+    margin-left: 13em;
+    color: black;
+    padding: 5px;
+    margin-top: 2em;
+  }
+
+  .footer p {
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: rgb(117, 77, 31);
+  }
+  
+  .footer h3 {
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: rgb(117, 77, 31);
+  }
+
+  .sectie {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 10em;
+}
+
+.element {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.afbeelding img {
+  width: 60vh;         
+  max-width: 1000vh;   
+  height: auto;       
+  margin: 1em; 
+}
+
+.tekst {
+font-size: 20px;
+font-style: italic;
+margin: 5em;
+}
